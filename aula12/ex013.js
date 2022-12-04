@@ -1,3 +1,4 @@
+
 var agora = new Date()
 var diasem = agora.getDay()
 
@@ -30,3 +31,5 @@ switch(diasem){
 }
 
 // fluxo do programa 
+
+
