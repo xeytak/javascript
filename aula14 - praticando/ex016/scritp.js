@@ -1,16 +1,40 @@
-/*
+
 function contar(){
-    var inicio = window.document.getElementById('textinicio')
-    var fim = window.document.getElementById('txtfim')
-    var passo = window.document.getElementById('txtpasso')
-    var contar = inicio + passo
-}*/
+    let inicio = document.getElementById('txtinicio')
+    let fim = document.getElementById('txtfim')
+    let passo = document.getElementById('txtpasso')
+    let resposta = document.getElementById('resposta')
+   
 
-var inicio = 2
-var fim = 20
-var passo = 2
+    if ( inicio.length == 0 || fim.length == 0 || passo.length == 0) {
+        window.alert('[ERRO] Está faltando dados!')
+    } else{
+        resposta.innerHTML = 'Calculando...'
 
-while (passo < fim){
-    passo += inicio
-    console.log(passo)
+        let i = Number(inicio.value)
+        let f = Number(fim.value)
+        let p = Number(p.value)
+
+        if (i < f){
+            for( c = i; c <= f; c+=p){
+                resposta.innerHTML += `${c}`
+    
+            }
+
+        } else{
+            for(c = i; c >= f; c-=p){
+                resposta.innerHTML -= `${c}`
+            }
+        }
+       
+    }
 }
+
+
+
+
+
+
+
+
+
