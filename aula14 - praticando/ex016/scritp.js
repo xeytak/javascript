@@ -6,7 +6,7 @@ function contar(){
     let resposta = document.getElementById('resposta')
    
 
-    if ( inicio.length == 0 || fim.length == 0 || passo.length == 0) {
+    if ( inicio.value.length == 0 || fim.value.length == 0 || passo.valeue.length == 0) {
         window.alert('[ERRO] Está faltando dados!')
     } else{
         resposta.innerHTML = 'Calculando...'
