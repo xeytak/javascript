@@ -28,6 +28,12 @@ section{
     margin-top: 15px;
 }
 
+#res{
+    margin-top: 20px;
+    padding: 10px;
+    line-height: 1.3em;
+}
+
 footer{
     font-style: italic;
     color: #ffffff;
